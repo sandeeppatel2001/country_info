@@ -24,6 +24,7 @@ body {
   font-size: 600%;
   text-shadow: brown;
   padding: 5px;
+  font-weight: bolder;
 }
 .head {
   position: absolute;
@@ -194,4 +195,38 @@ body {
   margin: 2rem;
   border: 3rem solid white;
   box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
+}
+@media screen and (max-width: 600px) {
+  body {
+    size: 10%;
+    text-size-adjust: 30%;
+  }
+  .head {
+    width: 100%;
+  }
+  .home {
+    font-size: 200%;
+  }
+  .ang {
+    size: 150%;
+    font-size: 150%;
+  }
+  .ank {
+    font-size: medium;
+  }
+  .input {
+    size: 30%;
+    font-size: small;
+  }
+  .btn {
+    size: 50%;
+    font-size: 80%;
+  }
+  .chat {
+    size: 30%;
+  }
+  .zero {
+    padding: 3px;
+    font-size: large;
+  }
 }
